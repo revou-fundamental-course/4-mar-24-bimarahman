@@ -34,6 +34,7 @@
             sekaran di kalkulator BMI
           </p>
           <section class="container-form">
+            <form id="formBMI">
             <div>
               <!--Input jenis kelamin -->
               <label for="">Jenis Kelamin</label>
@@ -65,13 +66,15 @@
               <input type="number" id="height" />
               <br />
               <br />
+            </form>
               <!--Tombol Sumbit Data -->
               <button type="button" id="calculate-button" onclick="hitungBMI()">
                 Hitung BMI
               </button>
               <!--Tombol Reset -->
-              <button type="button">Reset</button>
-            </div>
+              <button type="button" id="reset-button" onclick="resetInput()">
+                Reset
+              </button>
           </section>
           <h3>Keunggulan fitur</h3>
           <ol id="keunggulanFitur">
