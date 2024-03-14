@@ -29,3 +29,7 @@ function hitungBMI(){
     } else{
         alert("Anda belum menginputkan angka"); }
 }
+
+function resetInput (){
+    document.getElementById("formBMI").reset();
+}
